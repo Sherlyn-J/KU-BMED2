@@ -1,7 +1,7 @@
 # KU-BMED2
 
 # Explainable AI model to identify biomarkers in Alzheimer’s disease
-Authors: Sherlyn Jemimah, Aamna Mohammed AlShehhi* for the Alzheimer’s Disease Neuroimaging Initiative†
+Authors: Sherlyn Jemimah, Leontios Hadjileontiadis, Roy E. Welsch, Aamna Mohammed AlShehhi* for the Alzheimer’s Disease Neuroimaging Initiative†
 
 We developed a contrained, explainable AI model which utilizes SNPs, gene expression and clinical data from ADNI to predict the disease status of participants, and identify potential blood-based biomarkers for diagnosis. 
 Model performance in testing yielded an accuracy of 89.3% and AUC of 97.2%. The model incorporates constraints based on Reactome pathway data, which enhances performance and explainability. We used SHapley Additive exPlanations (SHAP) to identify genes which could potentially serve as biomarkers and gain mechanistic insights into Alzheimer's.
